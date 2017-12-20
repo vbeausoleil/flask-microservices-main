@@ -15,7 +15,7 @@ services:
 
   users-service:
     container_name: users-service
-    build: https://github.com/realpython/flask-microservices-users.git
+    build: https://github.com/vbeausoleil/flask-microservices-users.git
     # command: gunicorn -b 0.0.0.0:5000 manage:app
     expose:
       - '5000'
